@@ -1,0 +1,5 @@
+# bankers-algorithm
+The banker’s algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation for predetermined maximum possible amounts of all resources, then makes an “s-state” check to test for possible activities, before deciding whether allocation should be allowed to continue.
+
+# what does it mean
+A state is safe if the system can allocate all the resources requested by all processes, without entering a stalemate. More formally, a condition is safe if there is a safe one the sequence of satisfying process requests {P0, P1, P2, ..., PN} is as follows, that all resource allocation requests for the Pi process can be provided using the resources currently allocated to process Pi and all processes Pj. (That is, if all processes to Pi completed and released their resources, Pi will be able to end as well, using the resources they released.) If a secure sequence does not exist, then the system is located in a dangerous state, which can lead to a stalemate
